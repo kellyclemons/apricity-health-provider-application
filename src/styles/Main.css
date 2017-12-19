@@ -6,6 +6,14 @@
   /* display: block; */
 }
 
+.main-elements {
+  color: #fff;
+  background: #6FBAEF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .main-title {
   font-size: 1.2rem;
   text-transform: uppercase;

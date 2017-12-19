@@ -5,13 +5,13 @@ import {Graph} from './GraphType.js';
 export default class Main extends React.Component {
   render() {
     return(
-        <div className="main-element">
+        <div className="main-elements">
           <div className="main-title">Patient Monitoring</div>
-          {/* <Patient />
+          <Patient />
           <Graph />
           <Graph />
           <Graph />
-          <Graph /> */}
+          <Graph />
         </div>
     );
   }
