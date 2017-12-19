@@ -3,6 +3,10 @@ import Navbar from './Navbar.js';
 import GenInfo from './GenInfo.js';
 // import {Patient} from './Patient.js';
 import {Graph} from './GraphType.js';
+import HeartRateBarChart from './HeartRateBarChart.js';
+import HeartRateLineChart from './HeartRateLineChart.js';
+// import BarChart from './TestBarChart.js';
+// import LineChart from './TestLineChart.js';
 
 export default class Main extends React.Component {
   render() {
@@ -11,11 +15,16 @@ export default class Main extends React.Component {
           <Navbar />
           {/* <div className="main-title">Patient Monitoring</div> */}
           <GenInfo />
-          {/* <Patient /> */}
-          <Graph />
-          <Graph />
-          <Graph />
-          <Graph />
+          <div>
+            <HeartRateBarChart />
+            <HeartRateLineChart />
+            {/* <Patient /> */}
+            {/* <BarChart /> */}
+            {/* <LineChart /> */}
+            <Graph />
+            <Graph />
+            <Graph />
+          </div>
         </div>
     );
   }

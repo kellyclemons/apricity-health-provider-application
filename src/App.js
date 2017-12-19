@@ -10,7 +10,7 @@ import './styles/Sidebar.css'; // SIDEBAR STYLES
 // import './styles/TestComponent.css'; // REMOVE LATER
 
 import Sidebar from './components/Sidebar.js';
-import Navbar from './components/Navbar.js';
+// import Navbar from './components/Navbar.js';
 import Main from './components/Main.js';
 // import {Patient} from './components/patient.js'
 
