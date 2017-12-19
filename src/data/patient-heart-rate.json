@@ -10,37 +10,37 @@
     "coordinates":
       [
         {
-          "week":1,
+          "week": 0,
           "patientBPM": 60,
           "date":"2017-01-01",
           "rank":1
         },
         {
-          "week":2,
+          "week":1,
           "patientBPM": 70,
           "date":"2017-01-08",
           "rank":1
         },
         {
-          "week":3,
+          "week":2,
           "patientBPM": 75,
           "date":"2017-01-15",
           "rank":1
         },
         {
-          "week":4,
+          "week":3,
           "patientBPM": 65,
           "date":"2017-01-22",
           "rank":2
         },
         {
-          "week":5,
+          "week":4,
           "patientBPM": 60,
           "date":"2017-01-29",
           "rank":3
         },
         {
-          "week":6,
+          "week":5,
           "patientBPM": 90,
           "date":"2017-02-05",
           "rank":3

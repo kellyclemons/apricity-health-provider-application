@@ -42,8 +42,8 @@ export default class PatientHeartRateChart extends React.Component {
     return (
       <div style={{ width: "100%", height: "100%" }}>
         <ResponsiveXYFrame
-          size={[800, 600]}
-          // responsiveWidth={true}
+          size={[400, 200]}
+          responsiveWidth={true}
           lines={data.filter((d, i) => i < 50)}
           lineStyle={d => ({
             stroke: d.bpmReading.length > 10 ? "blue" : "red",
