@@ -10,7 +10,8 @@ import './styles/Sidebar.css'; // SIDEBAR STYLES
 // import './styles/TestComponent.css'; // REMOVE LATER
 
 import Sidebar from './components/Sidebar.js';
-// import {MainMedical} from './components/main-medical.js';
+import Navbar from './components/Navbar.js';
+// import Main from './components/Main.js';
 // import {Patient} from './components/patient.js'
 
 // import BarChart from './components/TestBarChart.js';
@@ -28,9 +29,10 @@ class App extends Component {
           <BarChart />
           <LineChart />
         </div> */}
-
+        <Navbar />
         <div className="App-container">
           <Sidebar />
+
         </div>
 
       </div>
