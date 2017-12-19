@@ -1,0 +1,50 @@
+[
+  {
+    "bpmReading": "70",
+
+    "name":"Harry Smith",
+    "studio":"12/1",
+    "firstWeek":"2016-25",
+    "maxRank":1,
+    "maxGross":486295561,
+    "coordinates":
+      [
+        {
+          "week":1,
+          "patientBPM": 60,
+          "date":"2016-06-17",
+          "rank":1
+        },
+        {
+          "week":2,
+          "patientBPM": 70,
+          "date":"2016-06-24",
+          "rank":1
+        },
+        {
+          "week":3,
+          "patientBPM": 90,
+          "date":"2016-07-01",
+          "rank":1
+        },
+        {
+          "week":4,
+          "patientBPM": 65,
+          "date":"2016-07-08",
+          "rank":2
+        },
+        {
+          "week":5,
+          "patientBPM": 60,
+          "date":"2016-07-15",
+          "rank":3
+        },
+        {
+          "week":6,
+          "patientBPM": 90,
+          "date":"2016-07-22",
+          "rank":3
+        }
+      ]
+    }
+  ]
