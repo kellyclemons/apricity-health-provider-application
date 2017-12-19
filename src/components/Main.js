@@ -6,6 +6,7 @@ import {Graph} from './GraphType.js';
 // import BloodPressureBarChart from './BloodPressureTest.js';
 import HeartRateBarChart from './HeartRateBarChart.js';
 import HeartRateLineChart from './HeartRateLineChart.js';
+import PatientHeartRateChart from './PatientHeartRate.js';
 // import BarChart from './TestBarChart.js';
 // import LineChart from './TestLineChart.js';
 
@@ -19,6 +20,7 @@ export default class Main extends React.Component {
           <div>
             <HeartRateBarChart />
             <HeartRateLineChart />
+            <PatientHeartRateChart />
             {/* <Patient /> */}
             {/* <BarChart /> */}
             {/* <LineChart /> */}

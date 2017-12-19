@@ -50,7 +50,7 @@ export default class HeartRateBarChart extends React.Component {
           })}
           axis={orAxis}
           margin={{ top: 25, bottom: 50, right: 25, left: 75 }}
-          oLabel={d => <text transform={"rotate(45)"} font-size={"0.8rem"}>{d}</text>}
+          oLabel={d => <text transform={"rotate(45)"} fontSize={"0.8rem"}>{d}</text>}
           oPadding={10}
           hoverAnnotation={true}
           tooltipContent={({ pieces }) => {
