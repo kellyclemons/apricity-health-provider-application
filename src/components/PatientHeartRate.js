@@ -20,29 +20,29 @@ export default class PatientHeartRateChart extends React.Component {
     const axes = [
       {
         orient: "left",
-        tickFormat: d => d / 10000000 + "m"
+        tickFormat: d => d / 10000000 + "bpm"
       },
-      { orient: "bottom", tickFormat: d => d.getMonth() }
+      { orient: "bottom", tickFormat: d => d.getDate() }
     ];
     const annotations = [
       {
         type: "y",
-        grossWeekly: 150000000,
+        patientBPM: 150000000, // EDIT used to be grossWeekly
         label: "High Risk"
       },
       {
         date: "2016-07-01",
-        title: "Finding Dory",
+        title: "Finding Dory", // EDIT
         dx: 30,
         dy: -50,
         type: AnnotationCalloutElbow,
-        label: "Very important day"
+        label: "Very important day" // EDIT
       }
     ];
     return (
       <div style={{ width: "100%", height: "100%" }}>
         <ResponsiveXYFrame
-          size={[400, 200]}
+          size={[800, 600]}
           // responsiveWidth={true}
           lines={data.filter((d, i) => i < 50)}
           lineStyle={d => ({
@@ -54,7 +54,7 @@ export default class PatientHeartRateChart extends React.Component {
           lineType={"line"}
           lineIDAccessor={d => d.bpmReading}
           xScaleType={scaleTime()}
-          xAccessor={d => new Date(d.date)}
+          xAccessor={d => new Date(d.date)} // EDIT
           yAccessor={"patientBPM"}
           hoverAnnotation={true}
           tooltipContent={tooltipCreator}
