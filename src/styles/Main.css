@@ -2,6 +2,7 @@
   color: #fff;
   background: #6FBAEF;
   width: 100%;
+  display: flex;
   /* display: block; */
 }
 

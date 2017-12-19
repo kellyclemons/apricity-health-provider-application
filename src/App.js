@@ -11,7 +11,7 @@ import './styles/Sidebar.css'; // SIDEBAR STYLES
 
 import Sidebar from './components/Sidebar.js';
 import Navbar from './components/Navbar.js';
-// import Main from './components/Main.js';
+import Main from './components/Main.js';
 // import {Patient} from './components/patient.js'
 
 // import BarChart from './components/TestBarChart.js';
@@ -29,9 +29,21 @@ class App extends Component {
           <BarChart />
           <LineChart />
         </div> */}
-        <Navbar />
+
         <div className="App-container">
-          <Sidebar />
+
+          {/* <div className="Navbar-container">
+            Navbar goes here
+          </div>
+
+          <div className="GenInfo-container">
+            General info goes here - 4 sections
+          </div> */}
+
+          <div className="main-container">
+            <Sidebar />
+            <Main />
+          </div>
 
         </div>
 
