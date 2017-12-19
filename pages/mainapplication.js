@@ -49,7 +49,6 @@ class App extends React.Component {
             font-family: arial;
             flex-direction: column;
           }
-
           .identity {
             margin-top: 35px;
             font-size: 11px;
