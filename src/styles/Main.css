@@ -1,0 +1,12 @@
+.main-container {
+  color: #fff;
+  background: #6FBAEF;
+  width: 100%;
+  /* display: block; */
+}
+
+.main-title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 0.75rem;
+}
