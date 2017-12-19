@@ -1,0 +1,21 @@
+/* NAVBAR STYLING */
+
+.navbar {
+  background: purple;
+  padding: 0.5rem;
+}
+
+.navbar-options {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-options-item {
+  font-size: 0.7rem;
+  color: #fff;
+  text-transform: uppercase;
+  /* background: blue; */
+  /* padding: 0.5rem; */
+  margin: 0.5rem;
+  /* margin: 1rem; */
+}
