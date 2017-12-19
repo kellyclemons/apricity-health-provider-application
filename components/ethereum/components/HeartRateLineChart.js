@@ -1,5 +1,6 @@
 import React from "react";
-import data from "../data/heart-rate.json";
+// import data from "../data/heart-rate.json";
+import data from "../../heartratedata.json";
 // import totalData from "../data/totals.json";
 // import { ORFrame } from "semiotic";
 import { ResponsiveXYFrame } from "semiotic";

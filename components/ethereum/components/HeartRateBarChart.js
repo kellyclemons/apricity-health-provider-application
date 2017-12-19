@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data/heart-rate.json";
+import data from "../../heartratedata.json";
 import { ORFrame } from "semiotic";
 // import { ResponsiveXYFrame } from "semiotic";
 // import { scaleTime } from "d3-scale";
