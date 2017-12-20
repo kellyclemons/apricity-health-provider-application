@@ -25,8 +25,8 @@ const colorHash = {};
 let colorI = 0;
 
 data.forEach((t, i) => {
-  if (!colorHash[t.studio]) {
-    colorHash[t.studio] = colors[colorI];
+  if (!colorHash[t.tdate]) {
+    colorHash[t.tdate] = colors[colorI];
     colorI = (colorI + 1) % 10;
   }
 });
@@ -41,12 +41,12 @@ export default class HeartRateBarChart extends React.Component {
         <ORFrame
           size={[400, 200]}
           data={data}
-          oAccessor={"studio"}
+          oAccessor={"tdate"}
           rAccessor={"maxGross"}
           type={"bar"}
           style={d => ({
-            fill: colorHash[d.studio],
-            stroke: colorHash[d.studio]
+            fill: colorHash[d.tdate],
+            stroke: colorHash[d.tdate]
           })}
           axis={orAxis}
           margin={{ top: 25, bottom: 50, right: 25, left: 75 }}

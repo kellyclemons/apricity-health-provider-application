@@ -1,5 +1,6 @@
 import React from "react";
-import data from "../data/heart-rate.json";
+// import data from "../data/heart-rate.json";
+import data from "../data/hr-data.json";
 // import totalData from "../data/totals.json";
 // import { ORFrame } from "semiotic";
 import { ResponsiveXYFrame } from "semiotic";
@@ -13,9 +14,9 @@ import { ToggleButton } from "./ToggleButton.js";
 
 const tooltipCreator = d => (
   <div className="tooltip-content">
-    <p>{d.parentLine.title}</p>
-    <p>Gross: {d.grossWeekly}</p>
-    <p>Week {d.week}</p>
+    <p>{d.parentLine.bpmReading}</p>
+    {/* <p>BPM Reading: {d.grossWeekly}</p> */}
+    <p>Week {d.studio}</p>
   </div>
 );
 
@@ -36,11 +37,11 @@ export default class HeartRateLineChart extends React.Component {
       },
       {
         date: "2016-07-01",
-        title: "Finding Dory",
+        title: "Harry Smith",
         dx: 30,
         dy: -50,
         type: AnnotationCalloutElbow,
-        label: "Very important day"
+        label: "High Risk"
       }
     ];
     return (

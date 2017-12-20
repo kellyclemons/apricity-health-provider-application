@@ -1,6 +1,5 @@
 import React from "react";
-// import data from "../data/heart-rate.json";
-// import data from "../data/patient-heart-rate.json";
+
 import data from "../data/hr-data.json";
 import { ORFrame } from "semiotic";
 import { ChartTitle } from "./ChartTitle.js";
@@ -34,8 +33,8 @@ const colorHash = {};
 let colorI = 0;
 
 data.forEach((t, i) => {
-  if (!colorHash[t.studio]) {
-    colorHash[t.studio] = colors[colorI];
+  if (!colorHash[t.tframe]) {
+    colorHash[t.tframe] = colors[colorI];
     colorI = (colorI + 1) % 10;
   }
 });
@@ -52,12 +51,12 @@ export default class PatientHRBarChart extends React.Component {
         <ORFrame
           size={[600, 400]}
           data={data}
-          oAccessor={"studio"}
-          rAccessor={"bpm-reading"}
+          oAccessor={"tframe"}
+          rAccessor={"bpmReading"}
           type={"bar"}
           style={d => ({
-            fill: colorHash[d.studio],
-            stroke: colorHash[d.studio]
+            fill: colorHash[d.tframe],
+            stroke: colorHash[d.tframe]
           })}
           axis={orAxis}
           margin={{ top: 25, bottom: 50, right: 25, left: 75 }}

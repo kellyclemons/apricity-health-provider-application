@@ -1,159 +1,143 @@
 [
   {
     "title":"HR = 70bpm",
-    "studio":"12/1",
-    "firstWeek":"2016-25",
-    "maxRank":1,
-    "maxGross":486295561,
+    "tframe":"12/1",
     "bpmReading": 700000000,
     "coordinates":
       [
         {
           "week":1,
-          "grossWeekly":213317902
+          "date":"2016-06-17"
         },
         {
           "week":2,
-          "grossWeekly":117031700
+          "date":"2016-06-24"
         },
         {
           "week":3,
-          "grossWeekly":71879641
+          "date":"2016-07-01"
         },
         {
           "week":4,
-          "grossWeekly":32235207
+          "date":"2016-07-08"
         },
         {
           "week":5,
-          "grossWeekly":18514669
+          "date":"2016-07-15"
         }
       ]
     },
     {
       "title":"HR = 60bpm",
-      "studio":"12/2",
-      "firstWeek":"2016-25",
-      "maxRank":1,
-      "maxGross":586296553,
+      "tframe":"12/2",
       "bpmReading": 600000000,
       "coordinates":
         [
           {
             "week":1,
-            "grossWeekly":213317902
+            "date":"2016-06-17"
           },
           {
             "week":2,
-            "grossWeekly":117031700
+            "date":"2016-06-24"
           },
           {
             "week":3,
-            "grossWeekly":71879641
+            "date":"2016-07-01"
           },
           {
             "week":4,
-            "grossWeekly":32235207
+            "date":"2016-07-08"
           },
           {
             "week":5,
-            "grossWeekly":18514669
+            "date":"2016-07-15"
           }
         ]
       },
 
       {
         "title":"HR = 90bpm",
-        "studio":"12/3",
-        "firstWeek":"2016-25",
-        "maxRank":1,
-        "maxGross":201392192,
+        "tframe":"12/3",
         "bpmReading": 900000000,
         "coordinates":
           [
             {
               "week":1,
-              "grossWeekly":213317902
+              "date":"2016-06-17"
             },
             {
               "week":2,
-              "grossWeekly":117031700
+              "date":"2016-06-24"
             },
             {
               "week":3,
-              "grossWeekly":71879641
+              "date":"2016-07-01"
             },
             {
               "week":4,
-              "grossWeekly":32235207
+              "date":"2016-07-08"
             },
             {
               "week":5,
-              "grossWeekly":18514669
+              "date":"2016-07-15"
             }
           ]
         },
 
         {
           "title":"HR = 75bpm",
-          "studio":"12/4",
-          "firstWeek":"2016-25",
-          "maxRank":1,
-          "maxGross":486295561,
+          "tframe":"12/4",
           "bpmReading": 750000000,
           "coordinates":
             [
               {
                 "week":1,
-                "grossWeekly":213317902
+                "date":"2016-06-17"
               },
               {
                 "week":2,
-                "grossWeekly":117031700
+                "date":"2016-06-24"
               },
               {
                 "week":3,
-                "grossWeekly":71879641
+                "date":"2016-07-01"
               },
               {
                 "week":4,
-                "grossWeekly":32235207
+                "date":"2016-07-08"
               },
               {
                 "week":5,
-                "grossWeekly":18514669
+                "date":"2016-07-15"
               }
             ]
           },
 
           {
             "title":"HR = 65bpm",
-            "studio":"12/5",
-            "firstWeek":"2016-25",
-            "maxRank":1,
-            "maxGross":295273335,
-            "bpmReading": 650000000,
+            "tframe":"12/5",
             "coordinates":
               [
                 {
                   "week":1,
-                  "grossWeekly":213317902
+                  "date":"2016-06-17"
                 },
                 {
                   "week":2,
-                  "grossWeekly":117031700
+                  "date":"2016-06-24"
                 },
                 {
                   "week":3,
-                  "grossWeekly":71879641
+                  "date":"2016-07-01"
                 },
                 {
                   "week":4,
-                  "grossWeekly":32235207
+                  "date":"2016-07-08"
                 },
                 {
                   "week":5,
-                  "grossWeekly":18514669
+                  "date":"2016-07-15"
                 }
               ]
             }
