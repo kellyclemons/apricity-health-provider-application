@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Group } from '@vx/group';
 import { AreaClosed, LinePath, Bar } from '@vx/shape';
-import { withParentSize } from '@vx/responsive';
+// import { withParentSize } from '@vx/responsive';
 import { scaleTime, scaleLinear } from '@vx/scale';
 import { LinearGradient } from '@vx/gradient';
 import { PatternLines } from '@vx/pattern';
@@ -18,13 +18,13 @@ import MinPrice from './minbpmval';
 // import formatBPMval from '../utils/formatBPMval';
 import formatBPMval from '../utilities/utilformatBPMval.js';
 import formatDate from '../utilities/utilformatDate.js';
-import jsonData from '../../data/interactivehrdata.json';
+// import jsonData from '../../data/interactivehrdata.json';
 // import jsonData from './heartratedata.json';
 
 class Chart3 extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() {
     const {
       data,
@@ -49,8 +49,8 @@ class Chart3 extends React.Component {
     const currentPoint = data[data.length - 1];
     const minBpmValue = Math.min(...data.map(y));
     const maxBpmValue = Math.max(...data.map(y));
-    const firstPrice = y(firstPoint);
-    const currentPrice = y(currentPoint);
+    // const firstPrice = y(firstPoint);
+    // const currentPrice = y(currentPoint);
     const maxData = [
       { time: x(firstPoint), bpmval: maxBpmValue },
       { time: x(currentPoint), bpmval: maxBpmValue }
@@ -70,7 +70,7 @@ class Chart3 extends React.Component {
     });
 
     return (
-      <div>
+      <div className="chart-three">
         <svg
           ref={s => (this.svg = s)}
           width={parentWidth}

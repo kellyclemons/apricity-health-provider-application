@@ -78,3 +78,17 @@
   background: #fff;
   color: #383938;
 }
+
+
+/* CHART 3 STYLES - Last line chart */
+.chart-three {
+  width: 100%;
+  min-width: 20rem;
+}
+
+.chart-test-element {
+  /* max-width: 100%;
+  height: auto;
+  min-width: 5rem;
+  overflow: auto; */
+}

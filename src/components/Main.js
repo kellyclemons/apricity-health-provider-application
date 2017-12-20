@@ -5,7 +5,7 @@ import GenInfo from './GenInfo.js';
 import PatientHRBarChart from './PatientHRBarChart.js';
 import HeartRateBarChart from './HeartRateBarChart.js';
 import HeartRateLineChart from './HeartRateLineChart.js';
-import PatientHeartRateChart from './PatientHeartRate.js';
+// import PatientHeartRateChart from './PatientHeartRate.js';
 
 // import {Patient} from './Patient.js';
 // import {Graph} from './GraphType.js';

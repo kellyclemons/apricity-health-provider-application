@@ -9,9 +9,88 @@
 }
 
 .gen-info-box {
+  /* display: flex; */
   color: #25618b;
   padding: 2rem;
   background: #C0E4FD;
   width: 25%;
   border-right: 2px solid #fff;
+}
+
+/* Progress Bars */
+
+.progress-circle {
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  height: 3rem;
+  /* margin: 4rem 2rem 0; */
+  margin: 0 1rem 0 0;
+  position: relative;
+  width: 3rem;
+}
+.progress-circle:before {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  content: attr(data-progress) '%';
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: center;
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+  bottom: 1rem;
+
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+.progress-circle:after {
+  background-color: #0083ff;
+  border-radius: 50%;
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.progress-circle:hover:before,
+.progress-circle:focus:before {
+          transform: scale(0.8);
+}
+
+/* Progress Status */
+
+.progress-circle[data-progress="0"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(90deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="1"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(93.6deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="2"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(97.2deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="3"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(100.8deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="4"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(104.4deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="5"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(108deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="6"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(111.6deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="7"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(115.2deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="8"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(118.8deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="9"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(122.4deg, #0083ff 50%, #ddd 50%, #ddd);
+}
+.progress-circle[data-progress="10"]:after {
+  background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(126deg, #0083ff 50%, #ddd 50%, #ddd);
 }

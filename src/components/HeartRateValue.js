@@ -11,8 +11,6 @@ export default function HeartrateValue({ data = {}, width, height }) {
   if (!data.bpm) return <div>loading...</div>;
 
   const bpm = Object.keys(data.bpm).map(k => ({
-    // replace with
-    // const bpm = Object.keys(data.resourceType).map(k => ({
     time: k,
     bpmval: data.bpm[k]
   }));
