@@ -4,7 +4,7 @@ export class ToggleButton extends React.Component {
   render() {
     return(
       <div className="filter-container">
-        <p className="filter-text">Filter by:</p>
+        <p className="filter-text">Filter chart data by:</p>
         <div className="button-container">
           <button className="toggleButton">6 days</button>
           <button className="toggleButton">6 weeks</button>

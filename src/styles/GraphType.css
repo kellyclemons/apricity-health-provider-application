@@ -25,12 +25,26 @@
   color: #383938;
   /* color: #fff; */
   text-transform: uppercase;
+
+  width: 100%;
+}
+
+.chart-header:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 -55% 0 .5em;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+  align-self: center;
+  align-items: center;
 }
 
 /* TOGGLE BUTTONS */
 
 .filter-container {
   margin: 0.5rem;
+  padding-left: 1rem;
   display: flex;
 }
 

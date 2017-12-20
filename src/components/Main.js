@@ -25,9 +25,9 @@ export default class Main extends React.Component {
             <HeartRateLineChart />
             <PatientHeartRateChart />
             {/* <InteractiveLineChart /> */}
-            <Graph />
-            <Graph />
-            <Graph />
+            {/* <Graph /> */}
+            {/* <Graph /> */}
+            {/* <Graph /> */}
             {/* <Graph /> */}
           </div>
         </div>
