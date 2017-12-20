@@ -5,18 +5,15 @@ import './styles/GenResets.css'; // RESET AND COLOR VARIABLE STYLES
 import './styles/Main.css'; // MAIN MEDICAL STYLES
 import './styles/Navbar.css'; // NAVBAR STYLES
 import './styles/Patient.css'; // PATIENT STYLES
-import './styles/Provider.css'; // PROVIDER STYLES
 import './styles/Sidebar.css'; // SIDEBAR STYLES
 import './styles/GraphType.css';
-// import './styles/TestComponent.css'; // REMOVE LATER
+// import './styles/Provider.css'; // PROVIDER STYLES
+
 
 import Sidebar from './components/Sidebar.js';
 // import Navbar from './components/Navbar.js';
 import Main from './components/Main.js';
 // import {Patient} from './components/patient.js'
-
-// import BarChart from './components/TestBarChart.js';
-// import LineChart from './components/TestLineChart.js';
 
 class App extends Component {
   render() {

@@ -5,7 +5,6 @@ export class ChartTitle extends React.Component {
     return(
       <div className="chart">
         <p className="chart-header">Patient Heart Rate</p>
-        {/* <div className="bar">----------------------------------------------------</div> */}
       </div>
     );
   }
