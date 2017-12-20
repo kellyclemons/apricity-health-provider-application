@@ -49,6 +49,8 @@
 }
 
 .filter-text {
+  font-size: 0.8rem;
+  color: #383938;
   margin: 0;
   align-self: center;
 }
@@ -60,15 +62,19 @@
 
 .toggleButton {
   border-style: none;
-  border-radius: 15px;
-  padding: 1rem;
+  /* border-radius: 5px; */
+  /* border: 1px solid #fff; */
+  padding: 0.5rem;
   margin: 0 0.5rem 0 0.5rem;
-  background: #153658;
-  color: white;
+  background: #383938;
+  color: #fff;
 }
 
 .toggleButton:hover {
   cursor: pointer;
-  background: #383938;
-  color: white;
+  /* background: #383938; */
+  /* border: 2px solid #fff; */
+  /* color: white; */
+  background: #fff;
+  color: #383938;
 }

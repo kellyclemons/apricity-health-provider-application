@@ -7,6 +7,7 @@ import { scaleTime } from "d3-scale";
 import { AnnotationCalloutElbow } from "react-annotation";
 
 import { ChartTitle } from "./ChartTitle.js";
+import { ToggleButton } from "./ToggleButton.js";
 
 // LINE CHART EXAMPLE
 
@@ -45,6 +46,7 @@ export default class HeartRateLineChart extends React.Component {
     return (
       <div className="chart-test-element">
       <ChartTitle />
+      <ToggleButton />
       <div style={{ width: "100%", height: "100%" }}>
         <ResponsiveXYFrame
           size={[400, 200]}

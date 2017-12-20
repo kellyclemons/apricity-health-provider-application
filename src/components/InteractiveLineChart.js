@@ -1,8 +1,6 @@
 import React from 'react';
 
 import { withScreenSize } from '@vx/responsive';
-
-// import Background from './Background.js';
 // import Background from '../../components/background.js';
 import HeartrateValue from './HeartRateValue.js';
 // import HeartrateValue from '../../components/heartratevalue';
@@ -10,6 +8,7 @@ import jsonData from '../data/interactivehrdata.json';
 // import jsonData from '../../components/heartratedata.json';
 
 import { ChartTitle } from "./ChartTitle.js";
+import { ToggleButton } from "./ToggleButton.js";
 
 
 
@@ -34,6 +33,7 @@ class InteractiveTest extends React.Component {
     return (
       <div className="chart-test-element">
         <ChartTitle />
+        <ToggleButton />
         {/* <Background width={screenWidth} height={screenHeight} /> */}
           <div className="center">
           <HeartrateValue data={data} width={screenWidth} height={screenHeight} />

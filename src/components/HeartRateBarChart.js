@@ -3,6 +3,7 @@ import data from "../data/heart-rate.json";
 import { ORFrame } from "semiotic";
 
 import { ChartTitle } from "./ChartTitle.js";
+import { ToggleButton } from "./ToggleButton.js";
 
 
 // BAR CHART EXAMPLE
@@ -39,6 +40,7 @@ export default class HeartRateBarChart extends React.Component {
     return (
       <div className="chart-test-element">
         <ChartTitle />
+        <ToggleButton />
         <ORFrame
           size={[400, 200]}
           data={data}
