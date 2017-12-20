@@ -10,7 +10,7 @@ import HeartRateLineChart from './HeartRateLineChart.js';
 // import {Patient} from './Patient.js';
 // import {Graph} from './GraphType.js';
 
-import InteractiveTest from './InteractiveLineChart.js';
+import InteractiveLineChart from './InteractiveLineChart.js';
 // import BarChart from './TestBarChart.js';
 // import LineChart from './TestLineChart.js';
 
@@ -28,7 +28,7 @@ export default class Main extends React.Component {
 
             {/* <PatientHeartRateChart />  */}
 
-            <InteractiveTest />
+            <InteractiveLineChart />
             {/* <Graph /> */}
             {/* <Graph /> */}
             {/* <Graph /> */}

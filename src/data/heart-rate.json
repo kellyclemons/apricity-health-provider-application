@@ -1,10 +1,11 @@
 [
   {
-    "title":"FindingDory",
+    "title":"HR = 70bpm",
     "studio":"12/1",
     "firstWeek":"2016-25",
     "maxRank":1,
     "maxGross":486295561,
+    "bpm-reading": 700000000,
     "coordinates":
       [
         {
@@ -50,11 +51,12 @@
       ]
     },
     {
-      "title":"Monsters, Inc",
+      "title":"HR = 60bpm",
       "studio":"12/2",
       "firstWeek":"2016-25",
       "maxRank":1,
       "maxGross":586296553,
+      "bpm-reading": 600000000,
       "coordinates":
         [
           {
@@ -101,11 +103,12 @@
       },
 
       {
-        "title":"ET",
+        "title":"HR = 90bpm",
         "studio":"12/3",
         "firstWeek":"2016-25",
         "maxRank":1,
         "maxGross":201392192,
+        "bpm-reading": 900000000,
         "coordinates":
           [
             {
@@ -152,11 +155,12 @@
         },
 
         {
-          "title":"Coco",
+          "title":"HR = 75bpm",
           "studio":"12/4",
           "firstWeek":"2016-25",
           "maxRank":1,
           "maxGross":486295561,
+          "bpm-reading": 750000000,
           "coordinates":
             [
               {
@@ -203,11 +207,12 @@
           },
 
           {
-            "title":"Test",
+            "title":"HR = 65bpm",
             "studio":"12/5",
             "firstWeek":"2016-25",
             "maxRank":1,
             "maxGross":295273335,
+            "bpm-reading": 650000000,
             "coordinates":
               [
                 {

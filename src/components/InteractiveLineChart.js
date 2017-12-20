@@ -13,7 +13,7 @@ import { ToggleButton } from "./ToggleButton.js";
 
 
 console.log(jsonData);
-class InteractiveTest extends React.Component {
+class InteractiveLineChart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -71,4 +71,4 @@ class InteractiveTest extends React.Component {
   }
 }
 
-export default withScreenSize(InteractiveTest);
+export default withScreenSize(InteractiveLineChart);
