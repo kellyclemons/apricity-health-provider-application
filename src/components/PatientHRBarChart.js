@@ -1,5 +1,7 @@
 import React from "react";
-import data from "../data/heart-rate.json";
+// import data from "../data/heart-rate.json";
+// import data from "../data/patient-heart-rate.json";
+import data from "../data/hr-data.json";
 import { ORFrame } from "semiotic";
 // import { ResponsiveXYFrame } from "semiotic";
 // import { scaleTime } from "d3-scale";
@@ -34,15 +36,15 @@ data.forEach((t, i) => {
 // Y AXIS
 const orAxis = { orient: "left", tickFormat: d => d / 10000000 + "bpm" };
 
-export default class HeartRateBarChart extends React.Component {
+export default class PatientHRBarChart extends React.Component {
   render() {
     return (
       <div>
         <ORFrame
-          size={[400, 200]}
+          size={[600, 400]}
           data={data}
           oAccessor={"studio"}
-          rAccessor={"maxGross"}
+          rAccessor={"bpm-reading"}
           type={"bar"}
           style={d => ({
             fill: colorHash[d.studio],
