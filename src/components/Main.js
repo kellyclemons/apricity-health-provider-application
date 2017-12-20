@@ -20,10 +20,10 @@ export default class Main extends React.Component {
           {/* <div className="main-title">Patient Monitoring</div> */}
           <GenInfo />
           <div className="chart-elements">
-            {/* <HeartRateBarChart /> */}
-            {/* <HeartRateLineChart /> */}
-            {/* <PatientHeartRateChart /> */}
             <PatientHRBarChart />
+            <HeartRateBarChart />
+            <HeartRateLineChart />
+            <PatientHeartRateChart />
             {/* <InteractiveLineChart /> */}
             <Graph />
             <Graph />
