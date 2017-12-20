@@ -11,10 +11,31 @@
 .gen-info-box {
   /* display: flex; */
   color: #25618b;
-  padding: 2rem;
+  padding: 1.2rem;
   background: #C0E4FD;
   width: 25%;
   border-right: 2px solid #fff;
+}
+
+/* BREAKDOWN BOX STYLES */
+
+.small-info-box {
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #25618b;
+}
+
+.small-info-item {
+  width: 20%;
+  border-right: 1px solid #25618b;
+
+  /* padding: 0.2rem; */
+}
+
+.small-info-item-last {
+  width: 20%;
+  /* padding: 0.5rem; */
 }
 
 /* Progress Bars */
