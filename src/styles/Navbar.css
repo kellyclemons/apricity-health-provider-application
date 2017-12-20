@@ -1,21 +1,33 @@
 /* NAVBAR STYLING */
 
 .navbar {
-  background: purple;
-  padding: 0.5rem;
+  /* background: #FEFFFF; */
+  /* padding: 0.5rem; */
+  background: #7FBAEB;
 }
 
 .navbar-options {
+  background: #FEFFFF;
+  color: #7FBAEB;
   display: flex;
   justify-content: flex-end;
 }
 
 .navbar-options-item {
   font-size: 0.7rem;
-  color: #fff;
+  color: #7FBAEB;
   text-transform: uppercase;
   /* background: blue; */
   /* padding: 0.5rem; */
   margin: 0.5rem;
   /* margin: 1rem; */
+}
+
+.navbar-general {
+  background: #7FBAEB;
+}
+
+.navbar-general-info {
+  background: #7FBAEB;
+  padding: 0.5rem;
 }

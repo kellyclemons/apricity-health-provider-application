@@ -7,6 +7,7 @@ import './styles/Navbar.css'; // NAVBAR STYLES
 import './styles/Patient.css'; // PATIENT STYLES
 import './styles/Provider.css'; // PROVIDER STYLES
 import './styles/Sidebar.css'; // SIDEBAR STYLES
+import './styles/GraphType.css';
 // import './styles/TestComponent.css'; // REMOVE LATER
 
 import Sidebar from './components/Sidebar.js';
@@ -21,9 +22,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header">
           <h1 className="App-title">Apricity Health Provider Web Application</h1>
-        </header>
+        </header> */}
 
         {/* <div className="Testing-container">
           <BarChart />

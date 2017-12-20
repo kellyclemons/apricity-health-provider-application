@@ -2,10 +2,11 @@
 
 .patient {
   background: #C0E4FD;
-  color: white;
+  color: #25618b;
   font-size: 0.8rem;
   display: block;
   padding: 1.2rem;
+  border-right: 2px solid #fff;
 }
 
 .patient-avatar {
@@ -13,11 +14,11 @@
 }
 
 .patient-details {
-
+  text-align: left;
 }
 
 .patient-name {
-
+  font-size: 1.2rem;
 }
 
 .patient-age {

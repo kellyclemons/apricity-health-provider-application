@@ -8,6 +8,9 @@ export default class Navbar extends React.Component {
           <a className="navbar-options-item" href="">Profile</a>
           <a className="navbar-options-item" href="">Logout</a>
         </div>
+        <div className="navbar-general">
+          <div className="navbar-general-info">Apricity Health Provider Web Application</div>
+        </div>
       </div>
     );
   }

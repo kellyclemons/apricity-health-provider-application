@@ -1,6 +1,6 @@
 .main-container {
   color: #fff;
-  background: #6FBAEF;
+  background: #7FBAEB;
   width: 100%;
   display: flex;
   /* display: block; */
@@ -8,7 +8,7 @@
 
 .main-elements {
   color: #fff;
-  background: #6FBAEF;
+  background: #7FBAEB;
   width: 100%;
   display: flex;
   flex-direction: column;

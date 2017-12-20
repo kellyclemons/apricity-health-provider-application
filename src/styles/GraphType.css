@@ -1,0 +1,13 @@
+.graph {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.graph-chart {
+  color: red;
+}
+
+.graph-header {
+  margin: 0.5rem;
+  color: #383938;
+}

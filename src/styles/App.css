@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+/* font-family: 'Roboto Condensed', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Barlow', sans-serif; */
+font-family: 'Oswald', sans-serif;
 }
 
 .App-logo {
@@ -25,4 +29,12 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.chart-elements {
+  margin: 1rem;
+}
+
+.chart-element {
+
 }

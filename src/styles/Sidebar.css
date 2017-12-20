@@ -2,25 +2,25 @@
 .sidebar {
   text-align: left;
   /* padding: 1rem; */
-  background: #86CEFC;
+  background: #383938;
   text-transform: uppercase;
   width: 25%;
 }
 
 .sidebar-title {
   font-size: 1.1rem;
-  color: #fff;
-  background: #6fc6ff;
+  color: #6fc6ff;
+  /* background: #6fc6ff; */
   text-align: center;
   padding: 0.8rem;
   border-bottom: 1px solid #fff;
 }
 
 .sidebar-options {
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   color: #fff;
   text-align: left;
-  background: #86CEFC;
+  /* background: #86CEFC; */
 }
 
 .sidebar-options-item {

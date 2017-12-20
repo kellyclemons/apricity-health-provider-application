@@ -18,7 +18,7 @@ export default class Main extends React.Component {
           <Navbar />
           {/* <div className="main-title">Patient Monitoring</div> */}
           <GenInfo />
-          <div>
+          <div className="chart-elements">
             <HeartRateBarChart />
             <HeartRateLineChart />
             <PatientHeartRateChart />
