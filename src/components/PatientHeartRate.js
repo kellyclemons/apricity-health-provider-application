@@ -5,6 +5,8 @@ import { ResponsiveXYFrame } from "semiotic";
 import { scaleTime } from "d3-scale";
 import { AnnotationCalloutElbow } from "react-annotation";
 
+import { ChartTitle } from "./ChartTitle.js";
+
 // LINE CHART
 
 const tooltipCreator = d => (
@@ -40,6 +42,8 @@ export default class PatientHeartRateChart extends React.Component {
       }
     ];
     return (
+      <div className="chart-test-element">
+        <ChartTitle />
       <div style={{ width: "100%", height: "100%" }}>
         <ResponsiveXYFrame
           size={[400, 200]}
@@ -61,6 +65,7 @@ export default class PatientHeartRateChart extends React.Component {
           axes={axes}
           annotations={annotations}
         />
+      </div>
       </div>
     );
   }

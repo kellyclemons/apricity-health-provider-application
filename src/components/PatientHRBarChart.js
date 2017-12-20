@@ -46,7 +46,7 @@ const orAxis = { orient: "left", tickFormat: d => d / 10000000 + "bpm" };
 export default class PatientHRBarChart extends React.Component {
   render() {
     return (
-      <div>
+      <div className="chart-test-element">
         <ChartTitle />
         <ToggleButton />
         <ORFrame

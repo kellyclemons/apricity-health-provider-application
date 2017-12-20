@@ -1,9 +1,9 @@
 import React from "react";
 import data from "../data/heart-rate.json";
 import { ORFrame } from "semiotic";
-// import { ResponsiveXYFrame } from "semiotic";
-// import { scaleTime } from "d3-scale";
-// import { AnnotationCalloutElbow } from "react-annotation";
+
+import { ChartTitle } from "./ChartTitle.js";
+
 
 // BAR CHART EXAMPLE
 
@@ -37,7 +37,8 @@ const orAxis = { orient: "left", tickFormat: d => d / 10000000 + "bpm" };
 export default class HeartRateBarChart extends React.Component {
   render() {
     return (
-      <div>
+      <div className="chart-test-element">
+        <ChartTitle />
         <ORFrame
           size={[400, 200]}
           data={data}

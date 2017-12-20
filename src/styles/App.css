@@ -33,8 +33,25 @@ font-family: 'Oswald', sans-serif;
 
 .chart-elements {
   margin: 1rem;
+  /* display: flex;
+  max-width: calc(100% - 1rem); */
+
+  /* display: flex;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  margin: 0 auto; */
 }
 
-.chart-element {
-
+/* .chart-element {
+  margin: 1rem;
+  flex-basis: calc(100% / 2 - 2rem);
+  flex-grow: 1;
+  display: flex;
 }
+
+.chart-element-test {
+  margin: 1rem;
+  flex-basis: calc(100% / 2 - 2rem);
+  flex-grow: 1;
+  display: flex;
+} */
