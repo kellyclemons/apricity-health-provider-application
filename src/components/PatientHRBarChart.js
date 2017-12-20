@@ -3,6 +3,8 @@ import React from "react";
 // import data from "../data/patient-heart-rate.json";
 import data from "../data/hr-data.json";
 import { ORFrame } from "semiotic";
+import { ChartTitle } from "./ChartTitle.js";
+import { ToggleButton } from "./ToggleButton.js";
 // import { ResponsiveXYFrame } from "semiotic";
 // import { scaleTime } from "d3-scale";
 // import { AnnotationCalloutElbow } from "react-annotation";
@@ -10,6 +12,11 @@ import { ORFrame } from "semiotic";
 // BAR CHART EXAMPLE
 
 const colors = [
+  "#BAE5FF",
+  "#BAE5FF",
+  "#BAE5FF",
+  "#BAE5FF",
+  "#BAE5FF",
   "#21f0b6",
   "#1f9383",
   "#85d2e1",
@@ -40,6 +47,8 @@ export default class PatientHRBarChart extends React.Component {
   render() {
     return (
       <div>
+        <ChartTitle />
+        <ToggleButton />
         <ORFrame
           size={[600, 400]}
           data={data}
@@ -63,6 +72,7 @@ export default class PatientHRBarChart extends React.Component {
             );
           }}
         />
+
       </div>
     );
   }

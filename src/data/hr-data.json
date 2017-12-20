@@ -1,6 +1,6 @@
 [
   {
-    "title":"70bpm",
+    "title":"HR = 70bpm",
     "studio":"12/1",
     "firstWeek":"2016-25",
     "maxRank":1,
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "title":"60bpm",
+      "title":"HR = 60bpm",
       "studio":"12/2",
       "firstWeek":"2016-25",
       "maxRank":1,
@@ -103,7 +103,7 @@
       },
 
       {
-        "title":"90bpm",
+        "title":"HR = 90bpm",
         "studio":"12/3",
         "firstWeek":"2016-25",
         "maxRank":1,
@@ -155,7 +155,7 @@
         },
 
         {
-          "title":"75bpm",
+          "title":"HR = 75bpm",
           "studio":"12/4",
           "firstWeek":"2016-25",
           "maxRank":1,
@@ -207,7 +207,7 @@
           },
 
           {
-            "title":"65bpm",
+            "title":"HR = 65bpm",
             "studio":"12/5",
             "firstWeek":"2016-25",
             "maxRank":1,

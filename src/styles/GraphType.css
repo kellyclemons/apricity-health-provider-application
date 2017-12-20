@@ -11,3 +11,50 @@
   margin: 0.5rem;
   color: #383938;
 }
+
+.chart {
+  display: flex;
+  align-items: center;
+  border: 1px
+}
+
+.chart-header {
+  display: flex;
+  justify-content: left;
+  margin: 0.5rem;
+  color: #383938;
+  /* color: #fff; */
+  text-transform: uppercase;
+}
+
+/* TOGGLE BUTTONS */
+
+.filter-container {
+  margin: 0.5rem;
+  display: flex;
+}
+
+.filter-text {
+  margin: 0;
+  align-self: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+}
+
+.toggleButton {
+  border-style: none;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+  background: #153658;
+  color: white;
+}
+
+.toggleButton:hover {
+  cursor: pointer;
+  background: #383938;
+  color: white;
+}
