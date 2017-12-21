@@ -5,6 +5,8 @@ import { ORFrame } from "semiotic";
 import { ChartTitle } from "./ChartTitle.js";
 import { ToggleButton } from "./ToggleButton.js";
 
+import {LineChart} from 'react-easy-chart';
+
 
 // BAR CHART EXAMPLE
 
@@ -64,6 +66,27 @@ export default class HeartRateBarChart extends React.Component {
             );
           }}
         />
+
+        <LineChart
+          axes
+          dataPoints
+          xDomainRange={[0, 100]}
+          yDomainRange={[0, 100]}
+          width={500}
+          height={250}
+          interpolate={'cardinal'}
+          data={[
+            [
+              { x: 10, y: 40 },
+              { x: 20, y: 30 },
+              { x: 30, y: 25 },
+              { x: 40, y: 60 },
+              { x: 50, y: 22 },
+              { x: 60, y: 9 }
+            ]
+          ]}
+        />
+
       </div>
     );
   }

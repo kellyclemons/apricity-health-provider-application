@@ -1,5 +1,11 @@
 // CHILD
 
+// ToggleOption renders dropdown filters
+// method binding for handleChange method
+// handleChange method is function that can be passed as event object
+// takes event obj as argument, extracts the name we want for that event object,
+// and calls event handler passing in extra name
+
 import React from 'react';
 
 export class ToggleOption extends React.Component {

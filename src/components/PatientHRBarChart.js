@@ -32,6 +32,8 @@ const colorHash = {};
 
 let colorI = 0;
 
+// Changes colors of bars
+
 data.forEach((t, i) => {
   if (!colorHash[t.tframe]) {
     colorHash[t.tframe] = colors[colorI];
@@ -49,10 +51,10 @@ export default class PatientHRBarChart extends React.Component {
         <ChartTitle />
         <ToggleButton />
         <ORFrame
-          size={[600, 400]}
+          size={[500, 400]}
           data={data}
-          oAccessor={"tframe"}
-          rAccessor={"bpmReading"}
+          oAccessor={"tframe"} // X AXIS
+          rAccessor={"bpmReading"} // Y AXIS
           type={"bar"}
           style={d => ({
             fill: colorHash[d.tframe],

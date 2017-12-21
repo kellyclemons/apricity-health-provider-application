@@ -11,8 +11,8 @@
 .gen-info-box {
   display: flex;
   justify-content: center;
-  width: calc(100% / 4);
-  align-self: center;
+  min-width: 25%;
+  /* align-self: center; */
   color: #25618b;
   padding: 1.6rem;
   background: #C0E4FD;
@@ -23,8 +23,8 @@
 
 .small-info-box {
   margin-top: 0.2rem;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   border: 1px solid #25618b;
 }
 

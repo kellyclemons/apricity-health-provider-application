@@ -3,8 +3,10 @@ import React from 'react';
 import { BarChart } from 'react-easy-chart';
 import { LineChart } from 'react-easy-chart';
 
-// import SiblingThree from './SiblingThree.js';
 // import {Legend} from 'react-easy-chart';
+
+// This renders toggle title and info as well as BarChart
+// props name is passed in
 
 export class Sibling extends React.Component {
   render() {

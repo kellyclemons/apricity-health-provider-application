@@ -7,7 +7,7 @@ import HeartRateBarChart from './HeartRateBarChart.js';
 import HeartRateLineChart from './HeartRateLineChart.js';
 import InteractiveLineChart from './InteractiveLineChart.js';
 import Parent from './Parent.js';
-import {LineChart} from 'react-easy-chart';
+// import {LineChart} from 'react-easy-chart';
 
 // import PatientHeartRateChart from './PatientHeartRate.js';
 // import {Patient} from './Patient.js';
@@ -30,7 +30,7 @@ export default class Main extends React.Component {
             <InteractiveLineChart />
             <Parent />
             <HeartRateBarChart />
-            <LineChart
+            {/* <LineChart
               axes
               dataPoints
               xDomainRange={[0, 100]}
@@ -55,7 +55,7 @@ export default class Main extends React.Component {
                   { x: 60, y: 9 }
                 ]
               ]}
-            />
+            /> */}
 
             {/* <HeartRateLineChart /> */}
             {/* <PatientHeartRateChart />  */}
