@@ -11,7 +11,7 @@ import { LineChart } from 'react-easy-chart';
 export class Sibling extends React.Component {
   render() {
     let name = this.props.name;
-    // let data = this.props.data;
+    let data = this.props.data;
     return(
       <div>
 
@@ -31,14 +31,7 @@ export class Sibling extends React.Component {
           // xType={'time'}
           xDomainRange={['1-Jan-17', '08-Jan-17']}
           yDomainRange={[0, 100]}
-          data={[
-            { x: '02-Jan-17', y: 90 },
-            { x: '03-Jan-17', y: 80 },
-            { x: '04-Jan-17', y: 75 },
-            { x: '05-Jan-17', y: 100 },
-            { x: '06-Jan-17', y: 65 },
-            { x: '07-Jan-17', y: 85 }
-          ]}
+          data={data}
         />
 
         {/* <LineChart
