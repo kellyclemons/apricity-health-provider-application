@@ -17,7 +17,7 @@ export class ToggleOption extends React.Component {
     return(
       <div className="filter-container">
         <p className="filter-text">Filter chart data by:</p>
-        <select id="great-names" className="button-container" onChange={this.handleChange}>
+        <select id="time-frame" className="button-container" onChange={this.handleChange}>
           <option value="days" className="toggleButton">6 days</option>
           <option value="weeks" className="toggleButton">6 weeks</option>
           <option value="months" className="toggleButton">6 months</option>

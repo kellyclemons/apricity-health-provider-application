@@ -8,7 +8,7 @@ export class Patient extends React.Component {
         <div className="patient-details">
           <div className="patient-name">Harry Smith</div>
           <div className="patient-age">Age: 72</div>
-          <div className="patient-other">Height: 5'11, Weight: 167lbs, BMI: xyz</div>
+          <div className="patient-other">Height: 5'11, Weight: 167lbs</div>
         </div>
       </div>
     );

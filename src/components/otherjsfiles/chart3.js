@@ -49,8 +49,7 @@ class Chart3 extends React.Component {
     const currentPoint = data[data.length - 1];
     const minBpmValue = Math.min(...data.map(y));
     const maxBpmValue = Math.max(...data.map(y));
-    // const firstPrice = y(firstPoint);
-    // const currentPrice = y(currentPoint);
+
     const maxData = [
       { time: x(firstPoint), bpmval: maxBpmValue },
       { time: x(currentPoint), bpmval: maxBpmValue }

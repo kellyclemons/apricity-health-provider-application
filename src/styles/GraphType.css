@@ -79,6 +79,29 @@
   color: #383938;
 }
 
+/* Toggle Styles */
+
+.toggle-container {
+  align-items: left;
+  font-size: 0.8rem;
+  padding-left: 1.5rem;
+  text-align: left;
+  margin: 0.5rem;
+}
+
+.toggle-title {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-info {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
 
 /* CHART 3 STYLES - Last line chart */
 .chart-three {

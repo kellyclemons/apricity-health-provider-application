@@ -10,11 +10,11 @@
 
 .gen-info-box {
   /* display: flex; */
-  align-items: center;
+  width: calc(100% / 4);
+  /* align-self: center; */
   color: #25618b;
   padding: 1.2rem;
   background: #C0E4FD;
-  width: 25%;
   border-right: 2px solid #fff;
 }
 

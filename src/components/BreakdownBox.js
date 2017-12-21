@@ -1,4 +1,5 @@
 import React from 'react';
+import {LineChart} from 'react-easy-chart';
 
 export class BreakdownBox extends React.Component {
   render() {
@@ -11,6 +12,7 @@ export class BreakdownBox extends React.Component {
           <div className="small-info-item">120</div>
           <div className="small-info-item-last">12%</div>
         </div>
+
       </div>
     );
   }
