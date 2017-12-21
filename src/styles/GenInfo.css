@@ -116,3 +116,10 @@
 .progress-circle[data-progress="10"]:after {
   background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(126deg, #0083ff 50%, #ddd 50%, #ddd);
 }
+
+/* PIE CHART SYLES */
+
+.pie-charts {
+  display: flex;
+  justify-content: center;
+}

@@ -11,10 +11,10 @@ export default class GenInfo extends React.Component {
       <div className="gen-info">
         <Patient />
         <BreakdownBox />
-        {/* <div className="gen-info-box">Breakdown Box</div> */}
-        {/* <div className="gen-info-box">Circle Box</div> */}
         <ProgressBar />
         <ChartBox />
+        {/* <div className="gen-info-box">Breakdown Box</div> */}
+        {/* <div className="gen-info-box">Circle Box</div> */}
         {/* <div className="gen-info-box">Chart Box</div> */}
       </div>
     );
