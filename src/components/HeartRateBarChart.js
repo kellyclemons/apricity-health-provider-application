@@ -43,6 +43,9 @@ export default class HeartRateBarChart extends React.Component {
       <div className="chart-test-element">
         <ChartTitle />
         <ToggleButton />
+        {/* ORFRAME NOTES */}
+        {/* If rAccessor is specified, determines how range values are accessed from the data array. */}
+        {/* If oAccessor is specified, determines how ordinal values are accessed from the data array. */}
         <ORFrame
           size={[400, 200]}
           data={data}
