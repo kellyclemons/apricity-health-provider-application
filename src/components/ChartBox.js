@@ -7,7 +7,7 @@ export class ChartBox extends React.Component {
       <div className="gen-info-box">
           <BarChart
             colorBars
-            height={37.5}
+            height={50}
             width={87.5}
             data={[
               {x: 'A', y: 46},

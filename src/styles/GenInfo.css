@@ -1,21 +1,22 @@
 /* GENERAL INFO STYLING */
 
 .gen-info {
-  background: #228848;
   display: flex;
   justify-content: center;
+  background: #C0E4FD;
   /* flex-basis: 1;
   flex-grow: 1; */
 }
 
 .gen-info-box {
-  /* display: flex; */
+  display: flex;
+  justify-content: center;
   width: calc(100% / 4);
-  /* align-self: center; */
+  align-self: center;
   color: #25618b;
-  padding: 1.2rem;
+  padding: 1.6rem;
   background: #C0E4FD;
-  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
 }
 
 /* BREAKDOWN BOX STYLES */
